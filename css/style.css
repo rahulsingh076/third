@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #055999;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: #055999;
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+  background: #055999;
+  color: #fff;
+}
+
+.box {
+  background: #efefef;
+  padding: 20px;
+  border: 1px solid #fff;
+}
+.box i {
+  font-size: 70px;
+  opacity: 68%;
+}
+.box h4 {
+  padding: 10px 0;
+}
+.box:hover {
+  background: #fff;
+  border: 1px solid #055999;
+}
+
+.btn-primary {
+  background: #055999;
+  border-radius: 0;
+}
+
+.our_team {
+  background: #055999;
+  color: #fff;
+  padding: 70px 200px;
+}
+.our_team p {
+  font-size: 14px;
+}
+
+.our_clients h4 {
+  padding-top: 30px;
+}
+.our_clients img {
+  filter: grayscale(100%);
+}
+.our_clients img:hover {
+  filter: none;
+}
+
+footer {
+  background: #1B1B1B;
+  color: #fff;
+  text-align: start;
+}
+footer h5 {
+  padding: 7px 30px;
+  font-size: 15px;
+}
+footer p {
+  font-size: 14px;
+  opacity: 60%;
+  line-height: 24px;
+}
+footer ul li {
+  list-style: none;
+  padding: 2px 0;
+  text-align: start;
+}
+footer ul li a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 60%;
+}
+footer ul li a:hover {
+  color: #fff;
+  opacity: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #055999;
+  color: #fff;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  top: -30px;
+  right: -10px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  top: -30px;
+  right: 20px;
+}
+
+.dropdown-item {
+  background: #fff;
+}
+.dropdown-item:hover {
+  background: #055999;
+  color: #fff;
+}
+
+.breadcrumb {
+  padding: 40px 0;
+  color: #fff;
+  background: #055999 url(/img/1.jpg);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.main p {
+  opacity: 90%;
+  font-size: 13px;
+}
+
+.icons {
+  width: 60px;
+  height: 60px;
+  background: #055999;
+  padding: 10px 0;
+}
+
+.icons i {
+  color: #FFC02A;
+  font-size: 30px;
+  padding: 0px 16px;
+}
+
+.desc p {
+  font-size: 14px;
+}
+
+.desc ul li {
+  background: #F4F4F4;
+  padding: 10px 10px;
+  list-style: none;
+}
+
+.desc ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  opacity: 80%;
+}
+.desc ul li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
